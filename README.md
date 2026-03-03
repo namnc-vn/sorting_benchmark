@@ -10,6 +10,10 @@ NumPy sort and C++ std::sort on 1,000,000 elements datasets.
 - results/: benchmark results
 - report/: final PDF report
 
+## Create data
+py randomarray.py
+py convert.py
+
 ## Compile C++
 g++ -O3 -march=native -std=c++17 benchmark_cpp.cpp -o benchmark_cpp
 
