@@ -34,9 +34,9 @@ report/ → final PDF report
 ## How to Run
 
 ### 1️⃣ Generate data
-- .npy
+- .npy  
 python scripts/randomarray.py
-- convert .npy to .bin
+- convert .npy to .bin  
 python scripts/convert.py
 
 
